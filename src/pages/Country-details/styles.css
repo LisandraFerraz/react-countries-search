@@ -1,0 +1,84 @@
+.actions-section {
+  @apply py-16 lg:px-3 xl:px-10 flex w-full;
+}
+
+.actions-section button {
+  @apply w-[140px] h-[40px] shadow rounded 
+  bg-white dark:bg-dark-blue
+  flex items-center gap-3 justify-start pl-6;
+}
+
+.actions-section button span {
+  @apply bg-light-arrow dark:bg-dark-arrow 
+  bg-no-repeat block opacity-80
+  w-[30px] h-[30px];
+}
+.details-container {
+  @apply grid  gap-16 
+  xl:px-10
+  lg:px-3
+  lg:grid-cols-2
+  md:grid-cols-1;
+}
+
+.flag-section img {
+  @apply h-auto
+  w-[580px]
+  md:w-[500px]
+  sm:w-[400px];
+}
+
+.details-gathered {
+  @apply flex flex-col gap-6 justify-center 
+  text-light-dark-blue dark:text-very-light-grey;
+}
+
+.details-gathered h1 {
+  @apply text-3xl font-bold;
+}
+
+.details-section {
+  @apply grid 
+  lg:grid-cols-2
+  md:grid-cols-2
+  md:w-fit md:gap-20;
+}
+
+.details-section ul li {
+  @apply my-1.5;
+}
+.details-section ul li span {
+  @apply dark:opacity-80 dark:font-light;
+}
+
+.details-section ul li strong {
+  @apply font-bold dark:opacity-90;
+}
+
+.border-countries-section {
+  @apply flex gap-3 items-baseline md:mt-16 mt-0 sm:mt-0
+  lg:flex-row
+  sm:flex-col
+  flex-col;
+}
+
+.details-list-2 {
+  @apply sm:my-4 my-4 md:my-0;
+}
+.border-countries-tags {
+  @apply w-[100px] h-[35px] 
+  rounded shadow bg-opacity-60
+  bg-white dark:bg-dark-blue 
+  dark:font-light
+  flex items-center justify-center;
+}
+
+.countries-tag-container {
+  @apply grid
+  2xl:grid-cols-5
+  xl:grid-cols-4
+  lg:grid-cols-3
+  md:grid-cols-4 md:gap-4
+  sm:grid-cols-5 sm:gap-3
+  grid-cols-3 gap-3;
+}
